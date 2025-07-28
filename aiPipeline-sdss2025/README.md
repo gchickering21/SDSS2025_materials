@@ -42,21 +42,21 @@ Due to the large number of cloud services leveraged to make this a fully automat
 # Project Structure
 
 aiPipeline-sdss2025/
-├── ai_findings                  # Intermediary output folder for findings produced from OpenAI API
-├── audio_files                    # Starting folder for audio files
-├── audio_files_not_processed      # Intermediary output folder for audio files that were not able to be processed and need further investigation
-├── audio_files_processed      # Intermediary output folder for audio files that were processed successfully
-├── daily_logs                    # Where log files for each run will be written to
-├── meta_data                     # Contains prompts used with OpenAI API and Mappings and Defnitions of Different Indicators
-├── resources                     # Contains ini file to put in cloud infrastructure credentials if desired
-├── sample_output_files           # Sample output files for users to use for mock data replication
-├── scripts.                      # Contains all python scripts needed for code - more details in next section 
-├── tagged_transcripts            # Intermediary output folder for transcripts tied to different discussed codes 
-├── tagged_transcripts_crosswalks # Contains sample crosswalk used in step 4 to identify which interviewer questions go with particular codes 
-├── word_diarized_transcripts     # Intermediary output folder for word transcripts with diarized speakers produced from audio file 
-├── words_transcripts             # Intermediary output folder for word transcripts produced from audio file infrastructure to work
-├── app_sample.py                 # Script allowing users to run code locally using mock data
-└── requirements.txt              # Contains list of python packages needed to run scripts - recommend creating a virtual environment based off these packages
+├── ai_findings/ # Output: AI-generated findings from OpenAI API
+├── audio_files/ # Input: Original audio files
+├── audio_files_not_processed/ # Output: Files that failed processing, flagged for review
+├── audio_files_processed/ # Output: Successfully processed audio files
+├── daily_logs/ # Output: Logs generated for each pipeline run
+├── meta_data/ # Input: Prompt templates and indicator definitions
+├── resources/ # Optional: Cloud config (.ini) for AWS/Azure credentials
+├── sample_output_files/ # Mock data outputs for example/test use
+├── scripts/ # All Python scripts used by the pipeline
+├── tagged_transcripts/ # Output: Transcripts tagged with qualitative codes
+├── tagged_transcripts_crosswalks/ # Input: Maps interviewer questions to codes
+├── word_diarized_transcripts/ # Output: Word docs with diarized speaker turns
+├── word_transcripts/ # Output: Word docs from transcription step
+├── app_sample.py # Sample script for local pipeline run using mock data
+└── requirements.txt # Python dependencies for the pipeline
 
 The folders ai_findings, audio_files, audio_files_not_processed, audio_files_processed, tagged_transcripts, word_diarized_transcripts, and word_transcripts are all output folders that are used to track and contain the output for each of the steps of the pipeline. Further description of each folder and how they correspond to the different sections is provided in the next section
 
