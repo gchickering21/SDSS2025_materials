@@ -98,7 +98,8 @@ app_sample.py – Sample script to run the pipeline locally using mock data
 
 # Reproducibility Instructions
 
-**This version allows you to download the repo and work with the mock data and code to understand cloud infrastructure. The file 'app_sample.py' would need to be filled in by individual users based on how they would connect to their respective cloud infrastructure. We have provided a template to get users started but users would need to fill in cloud infrastructure details and connections to fully reproduce results. Users would need to fill 'resources/config_template.ini' and have the infrastructure setup to run this file.**
+This version allows you to download the repo and work with the mock data and code to understand cloud infrastructure. The file 'app_sample.py' would need to be filled in by individual users based on how they would connect to their respective cloud infrastructure. We have provided a template to get users started but users would need to fill in cloud infrastructure details and connections to fully reproduce results. 
+** Users would need to fill 'resources/config_template.ini' and have the infrastructure setup to run this file.**
 
 1) Clone the Repo
 
