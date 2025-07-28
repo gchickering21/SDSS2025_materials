@@ -1,0 +1,207 @@
+{
+  "transcript_descriptions": {
+    "principals": "The focus group consists of an interviewer and at least one principal at the school",
+    "teachers": "The focus group consists of an interviewer and several teachers who teach at the school",
+    "students": "The focus group consists of an interviewer and several students who attend same school"
+  },
+  "prompts": {
+    "findings": "Identify up to five key findings from the transcript for the indicator and provide them in a table. The table should have a column titled 'FINDING' containing finding descriptions and a column titled 'QUOTE' containing at least one quote from the transcript to back up the finding. For the quote, make sure it is at least one full sentence. If there are no key findings just say \"There were no key findings identified.\" The descriptions in the 'FINDING' column should consist of two or three sentences. Be specific about how the finding relates to the indicator and give examples. The finding descriptions should treat the transcript content as reports or opinions from the focus group, not as facts. Mention when people have the same or differing opinions. Do not talk about things that the transcript does not mention or any information it is lacking. Do not provide titles for each finding, and do not summarize the findings.",
+    "agreements": "In another section titled \"AGREEMENTS AND DISAGREEMENTS\", identify up to five agreements or disagreements for the indicator and provide them in a numbered list. If there are no agreements or disagreements just say \"There were no agreements or disagreements identified.\" If you identify an agreement or disagreement, provide a 1-2 sentence description of what that agreement or disagreement was about in detail and try to capture any nuance or important info. Put \"AGREEMENT:\" before the description of each agreement and \"DISAGREEMENT:\" before the description of each disagreement. Do not provide titles for each agreement/disagreement, and put them into the same list.",
+    "summary": "In a final section titled \"SUMMARY\", summarize the key findings, agreements, and disagreements in a few sentences. For the agreements/disagreements part, when combined still make sure to make it clear that it was an agreement or disagreement.If there is nothing to summarize, say \"There is nothing to summarize.\""
+  },
+  "system_context": "You are an AI assistant that helps people find information.",
+  "indicators": {
+    "Background": {
+      "standard_name": "Background",
+      "indicator_name": "Background",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "Background"
+    },
+    "1A": {
+      "standard_name": "Leadership and Vision",
+      "indicator_name": "Focused, Shared Vision and Goals",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders have a defined instructional vision with clear, well-aligned improvement priorities and goals\u2014aimed at creating a safe and supportive learning environment for all students\u2014as well as specific benchmarks for measuring progress toward each goal. School leaders involve members of the broader school community (including parents) in determining schoolwide priorities. School leaders and nearly all staff members understand the instructional vision and priorities for improvement.There is a sense of shared ownership for all students and schoolwide improvement among all or nearly all staff. Staff consistently demonstrate this collective commitment through their actions and conversations."
+    },
+    "1B": {
+      "standard_name": "Leadership and Vision",
+      "indicator_name": "Distributed Leadership and Sustainability",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders engage all or nearly all staff in schoolwide improvement efforts through intentional teaming structures, and individuals have opportunities to take on leadership opportunities.School leaders have put some teaming structures in place to facilitate shared leadership responsibility. This structure is characterized by the inclusion of many diverse perspectives of staff members who actively contribute to the school's improvement priorities and instructional decision making.Ensuring sustainability is a top priority for school leaders, who accomplished sustainability through implementing specific strategies, such as succession planning, and utilizing distributed leadership."
+    },
+    "1C": {
+      "standard_name": "Leadership and Vision",
+      "indicator_name": "Culture of Continuous Improvement",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders have a plan for a consistent way for monitoring improvement using the elements of continuous improvement, and there is evidence that they use data to prioritize initiatives to meet evolving teacher and student needs.School leaders communicate clearly with all relevant staff about progress and challenges of improvement efforts. School leaders use schoolwide data to monitor the effectiveness of all key initiatives for all student groups.School leaders regularly seek input from the broader school community about progress on improvement efforts."
+    },
+    "1D": {
+      "standard_name": "Leadership and Vision",
+      "indicator_name": "Aligned, Consistent Professional Development",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "All or nearly all staff participate in coherent and regular professional development, including ongoing, job-embedded professional development and  growth opportunities that align with the school's instructional vision and improvement goals. School leaders develop professional development plans based on areas of need as identified by schoolwide data and provide staff with whole-group and individualized learning opportunities based on the unique needs identified. There is a system for conducting observations (including peer observations) and providing teachers with targeted coaching accessible to all staff. Information from the system informs professional development plans and supports."
+    },
+    "1Closing": {
+      "standard_name": "Leadership and Vision",
+      "indicator_name": "Leadership and Vision Closing",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "The school has established a community of practice through distributed leadership, shared responsibility for all students, and professional collaboration."
+    },
+    "2A": {
+      "standard_name": "Curriculum, Instruction and Assessment",
+      "indicator_name": "High-Quality, Defined Curriculum",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "The school has a high-quality instructional program, and meets all of the following criteria,a.Has documented evidenced-based curricula for all three core content areas (ELA, math, and science) b.The curriculum is aligned across grade levels and is standards aligned c.The curriculum is culturally responsive d.Has a system in place to support the fidelity of implementation of curriculum efforts e.Has an inclusive review process that regularly assesses the efficacy of the curriculum to support improved student outcomes."
+    },
+    "2B": {
+      "standard_name": "Curriculum, Instruction and Assessment",
+      "indicator_name": "Collaborative Planning",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "The school has systems and structures in place to support all or nearly all teachers in collaborative planning to ensure vertical and horizontal alignment.All or nearly all teachers engage in regularly scheduled planning for instruction several times per month or instructional cycle. Teachers have a clear understanding of how to collaboratively analyze student work to adjust instruction to meet student needs.Collaborative planning teams have robust structures in place to evaluate the effectiveness of planning and analysis activities."
+    },
+    "2C": {
+      "standard_name": "Curriculum, Instruction and Assessment",
+      "indicator_name": "High Expectations, Rigorous Instruction",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders and staff foster a culture of high expectations and rigorous instruction for all students, including multilingual learners, students with disabilities, and students from historically underserved backgrounds.School leaders and staff ensure that all students engage in standards-aligned, grade-level work through deliberate planning and well-defined instructional expectations. Teachers support high expectations and rigorous instruction by implementing effective classroom strategies (e.g., using language objectives to promote all students' language development)."
+    },
+    "2D": {
+      "standard_name": "Curriculum, Instruction and Assessment",
+      "indicator_name": "Teacher Observation and Feedback",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders have established a robust system for monitoring, observing, and providing feedback to improve instructional quality.All teachers actively engage in a comprehensive observation and feedback process designed to encourage self-reflection and drive professional growth.School leaders not only adhere to the required observation and feedback systems and procedures but also conduct additional regular classroom observations and walkthroughs with the aid of rubrics or protocols that align with educational standards.School leaders offer timely, pertinent, and actionable feedback to all or nearly all staff and use instructional observations to inform individualized professional development needs and schoolwide instructional priorities."
+    },
+    "2E": {
+      "standard_name": "Curriculum, Instruction and Assessment",
+      "indicator_name": "Data Collection and Collaborative Data Use",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders and staff use a comprehensive set of validated assessments to frequently monitor student learning across all grade levels and core content areas. Instructional staff have been allocated collaborative time within grade-level or content teams to analyze student assessment data to determine progress toward intended student and school outcomes more than two times per year. Teams use a variety of student assessment data (e.g., common assessment data, student work) to determine progress and are guided by common data use protocols.Instructional staff teams determine appropriate action steps and monitor the results of those actions. School leaders provide teachers with resources (coaching, professional development) to support data use."
+    },
+    "2Closing": {
+      "standard_name": "Curriculum, Instruction and Assessment",
+      "indicator_name": "Curriculum, Instruction and Assessment",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "The school employs intentional practices for improving teacher-specific and student-responsive curriculum, instruction, and assessment."
+    },
+    "3A": {
+      "standard_name": "Culture and Climate",
+      "indicator_name": "Positive Interpersonal Relationships",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders and staff have established and proactively enhance strategies that cultivate positive interpersonal relationships among adults and students. To support these relationships, school leaders and staff use various structures such as advisories, mentor programs, and smaller learning communities, all of which are designed to promote positive interactions among students and adults while providing valuable social-emotional support. Among staff and between staff and leaders, collegial relations are positive and are supported by schoolwide systems and structures (e.g., collaborative planning, shared understanding of expectations and priorities). Nearly all the staff report having trusting relationships with one another and school leaders."
+    },
+    "3B": {
+      "standard_name": "Culture and Climate",
+      "indicator_name": "Warm and Responsive Environment",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders and staff prioritize direct instruction of social-emotional competencies, and instruction is often tailored to students' specific needs. Social-emotional competencies are integrated into classroom instruction and the curriculum, ensuring that they are not only taught but also consistently reinforced and actively monitored for effectiveness. School leaders and staff maintain a safe and nurturing learning environment that encompasses physical, social, emotional, and behavioral aspects. This commitment extends to the implementation of universal teaming structures, healing-centered supports, enrichment and engagement programming, and comprehensive re-entry planning.School leaders and staff have established clear behavioral expectations understood by the school community and have systems and policies to ensure equitable and consistent reinforcement of these expectations."
+    },
+    "3C": {
+      "standard_name": "Culture and Climate",
+      "indicator_name": "Student Voice and Feedback",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders and staff have established systems and processes that empower all students to meaningfully contribute to decision making. At all levels, student voice and feedback are used to support continuous improvement of school practices, including teaching, learning, interventions, and school climate."
+    },
+    "3D": {
+      "standard_name": "Culture and Climate",
+      "indicator_name": "Family Collaboration",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders and staff prioritize engaging families as integral partners in students' academic and social development. Staff maintain regular communication with primary caregivers and encourage their active involvement in the establishment of a comprehensive educational system that addresses the diverse needs of the whole child. School leaders and staff prioritize family engagement by fulfilling the following key conditions, 1.Dedicated staff members coordinate family and community engagement activities. 2.The school has established a welcoming space for families, providing information about support services and assisting in the planning of family, school, and community events and informational programs, including referrals to academic, vocational, and college and career readiness programs. 3.Regular activities are strategically organized throughout the year to foster collaboration among families and community members, ensuring their input in planning and implementing both academic and nonacademic support. 4.Staff members consistently reach out to families to convey information regarding their children's progress and requirements. Communications are available in multiple languages to accommodate the diverse needs of the school community."
+    },
+    "3E": {
+      "standard_name": "Culture and Climate",
+      "indicator_name": "Community Resources and Engagement",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders and staff foster robust connections with several community organizations that provide resources to support school goals and the diverse needs of students.School leaders and staff use traditional and innovative approaches (e.g., social media, partner communication methods) to actively involve community organizations to meet the needs of students, families, and staff members.School leaders and staff utilize a comprehensive system for assessing the evolving needs of students and their families and providing wraparound services (e.g., health and housing referrals) throughout the school year to meet those needs."
+    },
+    "3Closing": {
+      "standard_name": "Culture and Climate",
+      "indicator_name": "Culture and Climate Closing",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "The school employs intentional practices for improving teacher-specific and student-responsive curriculum, instruction, and assessment."
+    },
+    "4A": {
+      "standard_name": "Targeted Instruction and Support",
+      "indicator_name": "Multitiered System of Supports",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders have implemented a system that integrates data and individualized supports to maximize student academic achievement and support students' social, emotional, and behavioral needs.The system meets all the following criteria for both academic and social-emotional needs,1.Intervention assignments are reviewed at least every 6 weeks. 2.Intervention assignments are reviewed by an appropriate team of school staff. 3.Staff members follow consistent rules and procedures when monitoring the delivery and effectiveness of interventions and supports. 4.A schoolwide system exists for communicating intervention action plans to all relevant staff and caregivers."
+    },
+    "4B": {
+      "standard_name": "Targeted Instruction and Support",
+      "indicator_name": "Inclusive and Differentiated Instruction",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "All students have access to high-quality, grade-appropriate instruction, grounded in UDL practices, and receive individualized support that does not require them to miss substantial core instruction time. All or nearly all teachers use instructional scaffolds to differentiate instruction. Planned, intentional scaffolds are evident in lesson planning and observed in instruction.When appropriate, special education teachers consistently either co-teach or push into classrooms to provide additional support for student learning, without removing students from core instructional periods.English learners receive primary language supports in Tier 1, Tier 2, and Tier 3 instruction through a combination of resources (e.g., dictionaries) or assistive technology (e.g., language applications) and a teacher or paraprofessional certified to provide those services."
+    },
+    "4C": {
+      "standard_name": "Targeted Instruction and Support",
+      "indicator_name": "Enrichment",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "Enrichment and advanced learning opportunities (e.g., advanced coursework; clubs; exploratory courses; elective offerings such as arts, music, physical activities, or world languages; and summer school) are available to all students through the school (i.e., during and outside the school day).The opportunities are, 1.informed by student interest or choice; 2.expose students to new skills and interests that enhance classroom experiences; and 3.monitored at least twice throughout the year for quality and to ensure all students are proportionately represented in these opportunities."
+    },
+    "4D": {
+      "standard_name": "Targeted Instruction and Support",
+      "indicator_name": "College and Career Readiness Opportunities",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "School leaders have developed a robust plan for college and career advising that builds on activities completed each year. All or nearly all students have access to a variety of college and career readiness opportunities (e.g., advanced coursework, such as AP or IB; dual enrollment or early college; work-based learning or CTE) and in a variety of settings (e.g., on or off campus; in person and virtual; during the school day, after school, and in the summer). College and career planning supports are universal (general) and individualized; students engage in educator-led lessons and activities to develop individualized college and career plans aligned with their individual goals and interests. These plans are updated at least annually to ensure all students who seek a college and career pathway endorsement achieve this goal. Parents are included in postsecondary and career planning conversations with staff."
+    },
+    "4Closing": {
+      "standard_name": "Targeted Instruction and Support",
+      "indicator_name": "Targeted Instruction and Support Closing",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "The school employs intentional practices for improving teacher-specific and student-responsive curriculum, instruction, and assessment."
+    },
+    "Closing": {
+      "standard_name": "Closing",
+      "indicator_name": "Closing",
+      "principals": true,
+      "teachers": true,
+      "students": true,
+      "description": "This will contain any remaining details that the focus group discussed that did not fit into the other indicators."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+aiohttp
+anyio
+asyncio
+azure-core
+azure-identity
+azure-keyvault-secrets
+certifi
+msgraph-core
+msgraph-sdk
+numpy
+pandas
+pyairtable
+python-dotenv
+requests
+urllib3

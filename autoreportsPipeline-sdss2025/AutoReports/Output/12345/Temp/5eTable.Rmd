@@ -1,0 +1,19 @@
+---
+output:
+  pdf_document:
+     keep_tex: true
+     latex_engine: lualatex
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+\begin{tikzpicture}[overlay,remember picture]
+```{r, echo=FALSE, results='asis'}
+add_5essentials_table(reportData_table, xshift = 0, yshift = -100)
+```
+
+
+```{r, echo=FALSE, results='asis'}
+# add_table_graphic(data=data.frame(Figure_num=reportData_table$Figure_num[1],value=mean(reportData_table$Score,na.rm=T)), xshift=472, yshift=-100, height=230, width=130, text_scalar=1.32, scale=8, report_name = name_school_district, output_path = output_path)
+```
+\end{tikzpicture}

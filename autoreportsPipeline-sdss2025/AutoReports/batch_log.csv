@@ -1,0 +1,20 @@
+"rcdts","key","school_name","district_name","data_prep_log","data_backend_log","file_gen_log","report_gen_log","pipeline_log","combined_log","combined_error_log","combined_warning_log","errors","warnings","status_label"
+12345,"Lincoln School- Peoria SD 150","Lincoln School","Peoria SD 150","**ERROR: Data Pieces Iteration 1 | Lincoln School- Peoria SD 150 (12345):
+
+Error in `left_join()`:
+! Can't join `x$rcdts` with `y$rcdts` due to incompatible types.
+ℹ `x$rcdts` is a <double>.
+ℹ `y$rcdts` is a <character>.
+","","","","","**ERROR: Data Pieces Iteration 1 | Lincoln School- Peoria SD 150 (12345):
+
+Error in `left_join()`:
+! Can't join `x$rcdts` with `y$rcdts` due to incompatible types.
+ℹ `x$rcdts` is a <double>.
+ℹ `y$rcdts` is a <character>.
+","**ERROR: Data Pieces Iteration 1 | Lincoln School- Peoria SD 150 (12345):
+
+Error in `left_join()`:
+! Can't join `x$rcdts` with `y$rcdts` due to incompatible types.
+ℹ `x$rcdts` is a <double>.
+ℹ `y$rcdts` is a <character>.
+","",TRUE,FALSE,"ERROR"

@@ -1,0 +1,74 @@
+{
+  "Focused, Shared Vision and Goals": {
+    "Standard": "Leadership and Vision",
+    "Number": "1A"
+  },
+  "Distributed Leadership and Sustainability": {
+    "Standard": "Leadership and Vision",
+    "Number": "1B"
+  },
+  "Culture of Continuous Improvement": {
+    "Standard": "Leadership and Vision",
+    "Number": "1C"
+  },
+  "Aligned, Consistent Professional Development": {
+    "Standard": "Leadership and Vision",
+    "Number": "1D"
+  },
+  "High-Quality, Defined Curriculum": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Number": "2A"
+  },
+  "Collaborative Planning": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Number": "2B"
+  },
+  "High Expectations, Rigorous Instruction": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Number": "2C"
+  },
+  "Teacher Observation and Feedback": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Number": "2D"
+  },
+  "Data Collection and Collaborative Data Use": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Number": "2E"
+  },
+  "Positive Interpersonal Relationships": {
+    "Standard": "Culture and Climate",
+    "Number": "3A"
+  },
+  "Warm and Responsive Environment": {
+    "Standard": "Culture and Climate",
+    "Number": "3B"
+  },
+  "Student Voice and Feedback": {
+    "Standard": "Culture and Climate",
+    "Number": "3C"
+  },
+  "Family Collaboration": {
+    "Standard": "Culture and Climate",
+    "Number": "3D"
+  },
+  "Community Resources and Engagement": {
+    "Standard": "Culture and Climate",
+    "Number": "3E"
+  },
+  "Multitiered System of Supports": {
+    "Standard": "Targeted Instruction and Support",
+    "Number": "4A"
+  },
+  "Inclusive and Differentiated Instruction": {
+    "Standard": "Targeted Instruction and Support",
+    "Number": "4B"
+  },
+  "Enrichment": {
+    "Standard": "Targeted Instruction and Support",
+    "Number": "4C"
+  },
+  "College and Career Readiness Opportunities": {
+    "Standard": "Targeted Instruction and Support",
+    "Number": "4D"
+  }
+}

@@ -1,0 +1,37 @@
+---
+output:
+  pdf_document:
+     keep_tex: true
+     latex_engine: lualatex
+
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+\begin{tikzpicture}[overlay,remember picture]
+```{r, echo=FALSE, results='asis'}
+data <- reportData[["tbl0"]]
+if (ind3c_result == "empty") {
+  data <- data %>%
+    mutate(across(
+      c(Initial, Emerging, Established, Robust),
+      ~ if_else(Variable == "IND3C", "-", .)
+    ))
+}
+if (ind4c_result == "empty") {
+  data <- data %>%
+    mutate(across(
+      c(Initial, Emerging, Established, Robust),
+      ~ if_else(Variable == "IND4C", "-", .)
+    ))
+}
+if (ind4d_result == "empty") {
+  data <- data %>%
+    mutate(across(
+      c(Initial, Emerging, Established, Robust),
+      ~ if_else(Variable == "IND4D", "-", .)
+    ))
+}
+add_turnaround_indicator_table(data, xshift = 35, yshift = -205)
+```
+\end{tikzpicture}

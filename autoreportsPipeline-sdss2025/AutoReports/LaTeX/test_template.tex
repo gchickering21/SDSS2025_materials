@@ -1,0 +1,30 @@
+\PassOptionsToPackage{pdfdisplaydoctitle}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+\RequirePackage{pdfmanagement-testphase}
+\DocumentMetadata{pdfstandard=UA-1,pdfversion=1.7,lang=en}
+\documentclass{standalone}
+\input{Latex/mystyles.sty}
+\usepackage{standalone}
+\usepackage{nicematrix}
+\usepackage[active,tightpage]{preview}
+\usepackage[margin=0cm, right=2.6cm, paperwidth=612pt, paperheight=792pt]{geometry}
+\usepackage{graphicx}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\usepackage{xcolor}
+% Ensure URL package works
+\IfFileExists{xurl.sty}{
+    \usepackage{xurl} % Better URL handling
+}{
+    \usepackage{url}  % Fallback for URL handling
+}
+\urlstyle{tt} % Monospaced font for URLs
+\setlength{\emergencystretch}{3em}
+
+\PreviewEnvironment{MyNiceTabular}
+\begin{document}
+$body$
+\end{document}

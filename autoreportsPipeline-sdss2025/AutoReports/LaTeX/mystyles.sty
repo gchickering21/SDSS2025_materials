@@ -1,0 +1,141 @@
+\usepackage{graphicx}
+\usepackage{tagpdf}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage[default,defaultsans,scale=0.9]{opensans}
+\usepackage[none]{hyphenat}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{colorprofiles}
+\usepackage{luatex85}
+\usepackage{enumitem}
+\usepackage{frcursive}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usetikzlibrary{fit,matrix,positioning,calc}
+\usepackage{varwidth}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{mdframed}
+\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{nicematrix}
+\usepackage{bookmark}
+\bookmarksetup{numbered}
+\usepackage{xparse}
+
+\hypersetup{
+    pdfauthor={},
+    pdftitle={},
+    pdfsubject={},
+    pdfkeywords={}
+}
+
+\tagpdfsetup
+  {
+    tabsorder=structure,
+    activate-all=true,
+    uncompress,
+    interwordspace=true,
+    newattribute = {TH-col} {/O /Table /Scope /Column},
+    newattribute = {TH-row} {/O /Table /Scope /Row},
+    newattribute = {TH-both}{/O /Table /Scope /Both}
+  }
+
+  \setmainfont{Arial} % Change "Arial" to your desired font
+  \newfontfamily\regular{Arial}
+  \newfontfamily\extrabold{Arial Bold}
+  \newfontfamily\italicfont{Arial Italic}
+
+\definecolor{headerTextDarkBlue}{RGB}{2,80,127}
+\definecolor{headerBackgroundLightBlue}{RGB}{233, 247, 254}
+\definecolor{indicatorHeaderBlue}{RGB}{7, 60, 92}
+\definecolor{iconBlue}{RGB}{0, 110, 159}
+\definecolor{footerGrey}{RGB}{198, 204, 207}
+
+\definecolor{headerBackgroundLightGreen}{RGB}{216, 236, 219}
+\definecolor{headerBackgroundLightPurple}{RGB}{245, 232, 242}
+\definecolor{headerBackgroundLightOrange}{RGB}{253, 209, 176}
+
+%to remove and replace with actual colors
+\definecolor{thetextgrey}{RGB}{102,116,125}
+\definecolor{thetextorange}{RGB}{189,75,39}
+\definecolor{thetextblue}{RGB}{0,110,159}
+\definecolor{thedarkgrey}{RGB}{163,170,173}
+\definecolor{thegrey}{RGB}{198, 204, 207}
+\definecolor{theblue}{RGB}{21, 156, 215}
+\definecolor{thegreen}{RGB}{9,169,78}
+\definecolor{thelightgreen}{RGB}{216, 236, 219}
+\definecolor{thepink}{RGB}{184,136,189}
+\definecolor{thelightpink}{RGB}{247, 233, 242}
+\definecolor{theorange}{RGB}{233, 106, 36}
+\definecolor{thelightorange}{RGB}{253, 209, 176}
+\definecolor{theblue}{RGB}{0,157,215}
+\definecolor{thelightblue}{RGB}{233,247,254}
+\definecolor{thewhite}{RGB}{255, 255, 255}
+\definecolor{theblack}{RGB}{0, 0, 0}
+\definecolor{tabledarkblue}{RGB}{2,80,127}
+\definecolor{thegraphiclightblue}{RGB}{152,199,232}
+\definecolor{thegraphicdarkblue}{RGB}{0,110,159}
+\definecolor{thegraphiclightorange}{RGB}{249,168,114}
+\definecolor{thegraphicdarkorange}{RGB}{233,106,36}
+
+\definecolor{thetablelightblue}{RGB}{202,229,242}
+\definecolor{thetabledarkblue}{RGB}{102,160,199}
+\definecolor{thetablelightorange}{RGB}{255,208,174}
+\definecolor{thetabledarkorange}{RGB}{255,166,126}
+
+\NiceMatrixOptions
+{
+    custom-line =
+    {letter = I ,
+    tikz = {thegrey}
+    },
+}
+
+\newcolumntype{P}{>{\raggedright\arraybackslash}p}
+\newcolumntype{M}{>{\raggedright\arraybackslash}m}
+
+%Use specified default value for a latex command if argument is left empty
+\newcommand\defaultifempty[2]{\if\relax\detokenize{#1}\relax #2\else #1\fi}
+
+%Replace the second value in the \defaultifempty call to change the default array stretch for all tables
+\newenvironment{MyNiceTabular}[1][1]
+{\renewcommand*{\arraystretch}{\defaultifempty{#1}{1.75}}\NiceTabular}
+{\endNiceTabular}
+
+\pagestyle{empty}
+
+\ExplSyntaxOn
+\NewExpandableDocumentCommand { \ValuePlusOne } { m }
+  { \int_eval:n { \int_use:c { c @ #1 } + 1 } }
+\NewExpandableDocumentCommand { \Sec } { m }
+  { \fp_eval:n { secd ( #1 ) } }
+\NewDocumentCommand { \Rot } { m }
+  {
+    \hbox_to_wd:nn { 1 em }
+      {
+        \hbox_overlap_right:n
+          {
+            \skip_horizontal:n { \fp_to_dim:n { 7 * cosd (\Angle) } }
+            \rotatebox{\Angle}{#1}
+          }
+      }
+  }
+\ExplSyntaxOff
+
+\NewDocumentCommand { \MixedRule } {O{theblack} m }
+  {
+    \begin{tikzpicture}
+    \coordinate (a) at (2-|#2) ;
+    \coordinate (b) at (1-|#2) ;
+    \draw [color=#1] (a) -- ($(a)!\Sec{90-\Angle}!\Angle-90:(b)$) ;
+    %
+    \draw [color=#1] (2-|#2) -- (\ValuePlusOne{iRow}-|#2) ;
+    \end{tikzpicture}
+  }
+
+\def\Angle{60}

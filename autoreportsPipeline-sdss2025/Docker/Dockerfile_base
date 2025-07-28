@@ -1,0 +1,74 @@
+# Use a specific R version as the base image
+FROM rocker/r-ver:4.3.1
+
+# Update system packages and install dependencies
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    libxt-dev \
+    pandoc \
+    wget \
+    python3 \
+    python3-pip \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    libfreetype6-dev \
+    libpq-dev \           
+    libjpeg-dev \         
+    libpng-dev \          
+    libfontconfig1-dev \
+    libfreetype6-dev \
+    libtiff5-dev \
+    pkg-config \
+    && apt-get clean
+
+# Install devtools from GitHub
+RUN Rscript -e "install.packages('remotes', repos = 'https://cloud.r-project.org')" \
+    && Rscript -e "remotes::install_github('r-lib/devtools')"
+
+# Install TinyTeX
+RUN Rscript -e "install.packages('tinytex', repos = 'https://cloud.r-project.org')" \
+    && Rscript -e "tinytex::install_tinytex()"
+
+# Install CATO VPN Certificate
+COPY CatoNetworksTrustedRootCA.cer /usr/local/share/ca-certificates/CatoNetworksTrustedRootCA.cer
+
+# Rename the certificate file
+RUN mv /usr/local/share/ca-certificates/CatoNetworksTrustedRootCA.cer /usr/local/share/ca-certificates/CatoNetworksTrustedRootCA.crt
+
+# Update CA certificates
+RUN update-ca-certificates
+
+
+# Copy Python requirements and install script
+COPY py_requirements.txt py_requirements.txt
+COPY install_py_packages.py install_py_packages.py
+
+# Install Python packages
+RUN python3 install_py_packages.py
+
+# Log installed Python packages
+RUN python3 -m pip list > python_packages.log
+
+# Install required LaTeX packages
+COPY latex_requirements.txt latex_requirements.txt
+RUN Rscript -e "tinytex::tlmgr_install(scan('latex_requirements.txt', what = 'character'))"
+
+# Copy R requirements
+COPY install_packages.R install_packages.R
+COPY requirements.txt requirements.txt
+
+# Install R packages and save logs
+RUN Rscript install_packages.R > r_install.log 2>&1 || true
+RUN cat r_install.log
+
+# Install required R packages explicitly
+RUN Rscript -e "install.packages(c('configr', 'data.table', 'DBI', 'RColorBrewer', 'RPostgres', 'credentials', 'curl', 'dotenv', 'reticulate','janitor', 'doSNOW', 'rjson', 'jsonlite', 'officer', 'magick','pdftools'), repos = 'https://cloud.r-project.org')"
+
+# Set REQUESTS_CA_BUNDLE environment variable
+ENV REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+
+## Copy in Fonts to image 
+COPY ttf_files /usr/share/fonts/truetype/ttf_files
+RUN fc-cache -fv

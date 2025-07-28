@@ -1,0 +1,18 @@
+---
+output:
+  pdf_document:
+     keep_tex: true
+     latex_engine: lualatex
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+
+
+\begin{tikzpicture}[overlay,remember picture]
+
+```{r, echo=FALSE, results='asis'}
+add_grade_table(co_data, co_data$Group, xshift = 0, yshift = -100)
+```
+\end{tikzpicture}

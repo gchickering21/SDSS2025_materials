@@ -1,0 +1,15 @@
+---
+output:
+  pdf_document:
+     keep_tex: true
+     latex_engine: lualatex
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+\begin{tikzpicture}[overlay,remember picture]
+```{r, echo=FALSE, results='asis'}
+add_indicator_header(curr_indicator=rating, xshift=35, yshift=-115)
+```
+\end{tikzpicture}

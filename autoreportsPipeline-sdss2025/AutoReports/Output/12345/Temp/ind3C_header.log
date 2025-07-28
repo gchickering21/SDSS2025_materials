@@ -1,0 +1,2337 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.6)  18 JUL 2025 18:09
+ restricted system commands enabled.
+**/AutoReports/Output/12345/Temp/ind3C_header.tex
+(/AutoReports/Output/12345/Temp/ind3C_header.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-09>
+Lua module: luaotfload 2024-02-14 v3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/root/.TinyTeX/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "/root/.TinyTeX/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/root/.TinyTeX/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/root/.TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-testphase.sty
+Package: pdfmanagement-testphase 2024-12-20 v0.96o LaTeX PDF management testphase bundle
+(/root/.TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
+Package: tagpdf-base 2024-12-04 v0.99k part of tagpdf - provide base, no-op versions of the user commands 
+\c@g__tag_MCID_abs_int=\count194
+\c@g__tag_struct_abs_int=\count195
+) (/root/.TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-testphase.ltx
+File: pdfmanagement-testphase.ltx 2024-12-20 v0.96o PDF management code (testphase)
+\g__pdfmanagement_EmbeddedFiles_int=\count196
+\l__pdfmeta_xmp_indent_int=\count197
+\g_pdffile_embed_pdfa_int=\count198
+\g_pdffile_embed_nonpdfa_int=\count199
+)) (/root/.TinyTeX/texmf-dist/tex/latex/latex-lab/documentmetadata-support.ltx) (/root/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count266
+Inserting `l3color' in `luaotfload.parse_color'.
+Inserting `l3opacity' in `luaotfload.parse_transparent'.
+\l__pdf_internal_box=\box52
+) (/root/.TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/l3backend-testphase-luatex.def
+File: l3backend-testphase-luatex.def 2024-12-20 LaTeX PDF management testphase bundle backend support:PDFoutput(LuaTeX)
+\l__pdf_backend_tmpa_box=\box53
+\l__pdf_backend_tmpb_box=\box54
+\g__pdf_backend_resourceid_int=\count267
+\g__pdf_backend_name_int=\count268
+\g__pdf_backend_page_int=\count269
+) (/root/.TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-firstaid.sty
+Package: pdfmanagement-firstaid 2024-12-20 v0.96o LaTeX PDF management testphase bundle / firstaid-patches
+
+Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
+
+) (/root/.TinyTeX/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files standalone
+(/root/.TinyTeX/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+) (/root/.TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+(/root/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)) (/root/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(/root/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/root/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+(/root/.TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count270
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count271
+\c@sapage=\count272
+(/root/.TinyTeX/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalone' class
+) (/root/.TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/root/.TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /root/.TinyTeX/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen140
+) (/root/.TinyTeX/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/root/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+(/root/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/root/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks19
+)
+\sa@box=\box55
+) (./Latex/mystyles.sty (/root/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/root/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(/root/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/root/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+(/root/.TinyTeX/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (/root/.TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+Package: tagpdf 2024-12-04 v0.99k  LaTeX kernel code for PDF tagging 
+\l__tag_tmpa_int=\count281
+\l__tag_tmpa_box=\box56
+\l__tag_tmpb_box=\box57
+\l__tag_loglevel_int=\count282
+\l__tag_tag_stop_int=\count283
+(/root/.TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-luatex.def
+File: tagpdf-luatex.def 2024-12-04 v0.99k tagpdf driver for luatex
+Lua module: tagpdf 2024-12-04 v0.99k tagpdf lua code
+Lua-only attribute g__tag_mc_type_attr = 4
+Lua-only attribute g__tag_mc_cnt_attr = 5
+Lua-only attribute g__tag_interwordspaceOff_attr = 6
+Lua-only attribute g__tag_interwordspace_attr = 7
+Lua-only attribute g__tag_interwordfont_attr = 8
+Inserting `tagpdf.rewrite-softhyphen' in `pre_shaping_filter'.
+Inserting `tagpdf.rewrite-softhyphen' in `post_shaping_filter'.) (/root/.TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-lua.sty
+Package: tagpdf-mc-code-lua 2024-12-04 v0.99k tagpdf - mc code only for the luamode 
+)
+\g__tag_tree_id_pad_int=\count284
+\c@g__tag_parenttree_obj_int=\count285
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-mathml.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-book.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-lab.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+\g__tag_struct_AFobj_int=\count286
+\g__tag_para_begin_int=\count287
+\g__tag_para_end_int=\count288
+\g__tag_para_main_begin_int=\count289
+\g__tag_para_main_end_int=\count290
+(/root/.TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-1.sty
+Package: latex-lab-testphase-new-or-1 2023-07-20 v0.85a Temporary output patches for tagging and better link support
+(/root/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count291
+)
+Patching header in \@outputpage
+Patching footer in \@outputpage
+Patching \@makecol for tagging
+Patching \@makecol for tagging
+)) (/root/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/root/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/root/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/root/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen143
+\pgfutil@tempdimb=\dimen144
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box58
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/root/.TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+(/root/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/root/.TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/root/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen145
+\pgf@y=\dimen146
+\pgf@xa=\dimen147
+\pgf@ya=\dimen148
+\pgf@xb=\dimen149
+\pgf@yb=\dimen150
+\pgf@xc=\dimen151
+\pgf@yc=\dimen152
+\pgf@xd=\dimen153
+\pgf@yd=\dimen154
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count292
+\c@pgf@countb=\count293
+\c@pgf@countc=\count294
+\c@pgf@countd=\count295
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count296
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count297
+\pgfsyssoftpath@bigbuffer@items=\count298
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/root/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+(/root/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+(/root/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/root/.TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/xcolor-patches-tmp-ltx.sty
+Package: xcolor-patches-tmp-ltx 2024-12-20 v0.96o patch xcolor for l3color
+) (/root/.TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/root/.TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
+) (/root/.TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen155
+\pgfmath@count=\count299
+\pgfmath@box=\box59
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count300
+)) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen156
+\pgf@picmaxx=\dimen157
+\pgf@picminy=\dimen158
+\pgf@picmaxy=\dimen159
+\pgf@pathminx=\dimen160
+\pgf@pathmaxx=\dimen161
+\pgf@pathminy=\dimen162
+\pgf@pathmaxy=\dimen163
+\pgf@xx=\dimen164
+\pgf@xy=\dimen165
+\pgf@yx=\dimen166
+\pgf@yy=\dimen167
+\pgf@zx=\dimen168
+\pgf@zy=\dimen169
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen170
+\pgf@path@lasty=\dimen171
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen172
+\pgf@shorten@start@additional=\dimen173
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count301
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen174
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen175
+\pgf@pt@y=\dimen176
+\pgf@pt@temp=\dimen177
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen178
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen179
+\pgf@sys@shading@range@num=\count302
+\pgf@shadingcount=\count303
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box63
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box64
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen180
+\pgf@nodesepend=\dimen181
+) (/root/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/root/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/root/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/root/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/root/.TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/root/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen182
+\pgffor@skip=\dimen183
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+)) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count304
+\pgfplotmarksize=\dimen184
+)
+\tikz@lastx=\dimen185
+\tikz@lasty=\dimen186
+\tikz@lastxsaved=\dimen187
+\tikz@lastysaved=\dimen188
+\tikz@lastmovetox=\dimen189
+\tikz@lastmovetoy=\dimen190
+\tikzleveldistance=\dimen191
+\tikzsiblingdistance=\dimen192
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count305
+\tikznumberofchildren=\count306
+\tikznumberofcurrentchild=\count307
+\tikz@fig@count=\count308
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count309
+\pgfmatrixcurrentcolumn=\count310
+\pgf@matrix@numberofcolumns=\count311
+)
+\tikz@expandcount=\count312
+(/root/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/latex/opensans/opensans.sty
+Package: opensans 2019/06/20 Style file for Open Sans.
+(/root/.TinyTeX/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+) (/root/.TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/root/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/root/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/root/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-12-09 L3 programming layer (loader) 
+)
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX (/root/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count313
+\l__fontspec_language_int=\count314
+\l__fontspec_strnum_int=\count315
+\l__fontspec_tmp_int=\count316
+\l__fontspec_tmpa_int=\count317
+\l__fontspec_tmpb_int=\count318
+\l__fontspec_tmpc_int=\count319
+\l__fontspec_em_int=\count320
+\l__fontspec_emdef_int=\count321
+\l__fontspec_strong_int=\count322
+\l__fontspec_strongdef_int=\count323
+\l__fontspec_tmpa_dim=\dimen193
+\l__fontspec_tmpb_dim=\dimen194
+\l__fontspec_tmpc_dim=\dimen195
+(/root/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/root/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Light scale = 0.9.
+
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Light scale = 0.9.
+
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBold scale = 0.9.
+
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Bold scale = 0.9.
+
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-BoldItalic scale = 0.9.
+
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Bold scale = 0.9.
+
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBold scale = 0.9.
+
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Italic scale = 0.9.
+
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'opensans-TLF' created for font 'OpenSans'
+(fontspec)             with options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=0.9,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Lining},NFSSFamily=opensans-TLF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Light scale = 0.9.
+
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Light scale = 0.9.
+
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBold scale = 0.9.
+
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Bold scale = 0.9.
+
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-BoldItalic scale = 0.9.
+
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Bold scale = 0.9.
+
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBold scale = 0.9.
+
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Italic scale = 0.9.
+
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'opensans-LF' created for font 'OpenSans'
+(fontspec)             with options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=0.9,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Proportional,Lining},NFSSFamily=opensans-LF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Light scale = 0.9.
+
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Light scale = 0.9.
+
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBold scale = 0.9.
+
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Bold scale = 0.9.
+
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-BoldItalic scale = 0.9.
+
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Bold scale = 0.9.
+
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBold scale = 0.9.
+
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Italic scale = 0.9.
+
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'opensans-TOsF' created for font 'OpenSans'
+(fontspec)             with options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=0.9,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,OldStyle},NFSSFamily=opensans-TOsF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Light scale = 0.9.
+
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Light scale = 0.9.
+
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBold scale = 0.9.
+
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Bold scale = 0.9.
+
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-BoldItalic scale = 0.9.
+
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Bold scale = 0.9.
+
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBold scale = 0.9.
+
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Italic scale = 0.9.
+
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'opensans-OsF' created for font 'OpenSans'
+(fontspec)             with options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=0.9,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Proportional,OldStyle},NFSSFamily=opensans-OsF].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Light scale = 0.9.
+
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Light scale = 0.9.
+
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBold scale = 0.9.
+
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Bold scale = 0.9.
+
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-BoldItalic scale = 0.9.
+
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Bold scale = 0.9.
+
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBold scale = 0.9.
+
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Italic scale = 0.9.
+
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'fos' created for font 'OpenSans' with
+(fontspec)             options
+(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=0.9,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Lining},NFSSFamily=fos].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Light scale = 0.9.
+
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Light scale = 0.9.
+
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-LightItalic scale = 0.9.
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBold scale = 0.9.
+
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-SemiBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Bold scale = 0.9.
+
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-BoldItalic scale = 0.9.
+
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSansCondensed-Bold scale = 0.9.
+
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBold scale = 0.9.
+
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-ExtraBoldItalic scale = 0.9.
+
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Italic scale = 0.9.
+
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'OpenSans(0)' created for font 'OpenSans'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,Extension=.ttf,Ligatures={TeX,Common},Scale=0.9,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Lining}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Light.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-LightItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-BoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSansCondensed-Bold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Regular.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[OpenSans-Italic.ttf]:mode=node;script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
+
+
+Package fontspec Info: 
+(fontspec)             OpenSans-Regular scale = 0.9.
+
+LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 151.
+) (/root/.TinyTeX/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language2
+LaTeX Info: Redefining \_ on input line 43.
+) (/root/.TinyTeX/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/root/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen196
+\lightrulewidth=\dimen197
+\cmidrulewidth=\dimen198
+\belowrulesep=\dimen199
+\belowbottomsep=\dimen256
+\aboverulesep=\dimen257
+\abovetopsep=\dimen258
+\cmidrulesep=\dimen259
+\cmidrulekern=\dimen260
+\defaultaddspace=\dimen261
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen262
+\@belowrulesep=\dimen263
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen264
+) (/root/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen265
+\ar@mcellbox=\box69
+\extrarowheight=\dimen266
+\NC@list=\toks32
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box70
+) (/root/.TinyTeX/texmf-dist/tex/generic/colorprofiles/colorprofiles.sty
+Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A support
+(/root/.TinyTeX/texmf-dist/tex/generic/colorprofiles/colorprofiles.tex)) (/root/.TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks33
+\labelindent=\skip53
+\enit@outerparindent=\dimen267
+\enit@toks=\toks34
+\enit@inbox=\box71
+\enit@count@id=\count328
+\enitdp@description=\count329
+) (/root/.TinyTeX/texmf-dist/tex/latex/frcursive/frcursive.sty
+Package: frcursive 2004/02/01 v1.2 support package for French Cursive
+\seyesThickness=\skip54
+\seyes@box=\box72
+\seyes@ln=\skip55
+) (/root/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks35
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/root/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/root/.TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box73
+\sift@deathcycles=\count330
+\@vwid@loff=\dimen268
+\@vwid@roff=\dimen269
+) (/root/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip56
+For additional information on amsmath, use the `?' option.
+(/root/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/root/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen270
+)) (/root/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen271
+) (/root/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count331
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count332
+\leftroot@=\count333
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count334
+\DOTSCASE@=\count335
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen272
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count336
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count337
+\dotsspace@=\muskip17
+\c@parentequation=\count338
+\dspbrk@lvl=\count339
+\tag@help=\toks37
+\row@=\count340
+\column@=\count341
+\maxfields@=\count342
+\andhelp@=\toks38
+\eqnshift@=\dimen273
+\alignsep@=\dimen274
+\tagshift@=\dimen275
+\tagwidth@=\dimen276
+\totwidth@=\dimen277
+\lineht@=\dimen278
+\@envbody=\toks39
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/root/.TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/01/01 v5.0 Extensive control of page headers and footers
+\f@nch@headwidth=\skip59
+\f@nch@offset@elh=\skip60
+\f@nch@offset@erh=\skip61
+\f@nch@offset@olh=\skip62
+\f@nch@offset@orh=\skip63
+\f@nch@offset@elf=\skip64
+\f@nch@offset@erf=\skip65
+\f@nch@offset@olf=\skip66
+\f@nch@offset@orf=\skip67
+\f@nch@height=\skip68
+\f@nch@footalignment=\skip69
+\f@nch@widthL=\skip70
+\f@nch@widthC=\skip71
+\f@nch@widthR=\skip72
+\@temptokenb=\toks41
+) (/root/.TinyTeX/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+(/root/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(/root/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/root/.TinyTeX/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+(/root/.TinyTeX/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+(/root/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/root/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (/root/.TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count343
+Package zref Info: New property: abspage on input line 67.
+) (/root/.TinyTeX/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip73
+\c@mdf@globalstyle@cnt=\count344
+\mdf@skipabove@length=\skip74
+\mdf@skipbelow@length=\skip75
+\mdf@leftmargin@length=\skip76
+\mdf@rightmargin@length=\skip77
+\mdf@innerleftmargin@length=\skip78
+\mdf@innerrightmargin@length=\skip79
+\mdf@innertopmargin@length=\skip80
+\mdf@innerbottommargin@length=\skip81
+\mdf@splittopskip@length=\skip82
+\mdf@splitbottomskip@length=\skip83
+\mdf@outermargin@length=\skip84
+\mdf@innermargin@length=\skip85
+\mdf@linewidth@length=\skip86
+\mdf@innerlinewidth@length=\skip87
+\mdf@middlelinewidth@length=\skip88
+\mdf@outerlinewidth@length=\skip89
+\mdf@roundcorner@length=\skip90
+\mdf@footenotedistance@length=\skip91
+\mdf@userdefinedwidth@length=\skip92
+\mdf@needspace@length=\skip93
+\mdf@frametitleaboveskip@length=\skip94
+\mdf@frametitlebelowskip@length=\skip95
+\mdf@frametitlerulewidth@length=\skip96
+\mdf@frametitleleftmargin@length=\skip97
+\mdf@frametitlerightmargin@length=\skip98
+\mdf@shadowsize@length=\skip99
+\mdf@extratopheight@length=\skip100
+\mdf@subtitleabovelinewidth@length=\skip101
+\mdf@subtitlebelowlinewidth@length=\skip102
+\mdf@subtitleaboveskip@length=\skip103
+\mdf@subtitlebelowskip@length=\skip104
+\mdf@subtitleinneraboveskip@length=\skip105
+\mdf@subtitleinnerbelowskip@length=\skip106
+\mdf@subsubtitleabovelinewidth@length=\skip107
+\mdf@subsubtitlebelowlinewidth@length=\skip108
+\mdf@subsubtitleaboveskip@length=\skip109
+\mdf@subsubtitlebelowskip@length=\skip110
+\mdf@subsubtitleinneraboveskip@length=\skip111
+\mdf@subsubtitleinnerbelowskip@length=\skip112
+(/root/.TinyTeX/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box76
+\mdf@footnotebox=\box77
+\mdf@splitbox@one=\box78
+\mdf@splitbox@two=\box79
+\mdf@splitbox@save=\box80
+\mdfsplitboxwidth=\skip113
+\mdfsplitboxtotalwidth=\skip114
+\mdfsplitboxheight=\skip115
+\mdfsplitboxdepth=\skip116
+\mdfsplitboxtotalheight=\skip117
+\mdfframetitleboxwidth=\skip118
+\mdfframetitleboxtotalwidth=\skip119
+\mdfframetitleboxheight=\skip120
+\mdfframetitleboxdepth=\skip121
+\mdfframetitleboxtotalheight=\skip122
+\mdffootnoteboxwidth=\skip123
+\mdffootnoteboxtotalwidth=\skip124
+\mdffootnoteboxheight=\skip125
+\mdffootnoteboxdepth=\skip126
+\mdffootnoteboxtotalheight=\skip127
+\mdftotallinewidth=\skip128
+\mdfboundingboxwidth=\skip129
+\mdfboundingboxtotalwidth=\skip130
+\mdfboundingboxheight=\skip131
+\mdfboundingboxdepth=\skip132
+\mdfboundingboxtotalheight=\skip133
+\mdf@freevspace@length=\skip134
+\mdf@horizontalwidthofbox@length=\skip135
+\mdf@verticalmarginwhole@length=\skip136
+\mdf@horizontalspaceofbox=\skip137
+\mdfsubtitleheight=\skip138
+\mdfsubsubtitleheight=\skip139
+\c@mdfcountframes=\count345
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count346
+\c@mdf@env@i=\count347
+\c@mdf@env@ii=\count348
+\c@mdf@zref@counter=\count349
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) (/root/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/root/.TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip140
+\RaggedLeftLeftskip=\skip141
+\RaggedRightLeftskip=\skip142
+\CenteringRightskip=\skip143
+\RaggedLeftRightskip=\skip144
+\RaggedRightRightskip=\skip145
+\CenteringParfillskip=\skip146
+\RaggedLeftParfillskip=\skip147
+\RaggedRightParfillskip=\skip148
+\JustifyingParfillskip=\skip149
+\CenteringParindent=\skip150
+\RaggedLeftParindent=\skip151
+\RaggedRightParindent=\skip152
+\JustifyingParindent=\skip153
+) (/root/.TinyTeX/texmf-dist/tex/latex/nicematrix/nicematrix.sty (/root/.TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: nicematrix 2024/12/16 v7.0a Enhanced arrays with the help of PGF/TikZ
+\g__nicematrix_env_int=\count350
+\g__nicematrix_NiceMatrixBlock_int=\count351
+\g__nicematrix_notes_caption_int=\count352
+\l__nicematrix_columns_width_dim=\dimen279
+\l__nicematrix_col_width_dim=\dimen280
+\g__nicematrix_row_total_int=\count353
+\g__nicematrix_col_total_int=\count354
+\g__nicematrix_last_row_node_int=\count355
+\l__nicematrix_key_nb_rows_int=\count356
+\g__nicematrix_blocks_wd_dim=\dimen281
+\g__nicematrix_blocks_ht_dim=\dimen282
+\g__nicematrix_blocks_dp_dim=\dimen283
+\l__nicematrix_width_dim=\dimen284
+\l__nicematrix_tabular_width_dim=\dimen285
+\l__nicematrix_rule_width_dim=\dimen286
+\l__nicematrix_old_iRow_int=\count357
+\l__nicematrix_old_jCol_int=\count358
+\g__nicematrix_total_X_weight_int=\count359
+\l__nicematrix_X_columns_dim=\dimen287
+\l__nicematrix_x_initial_dim=\dimen288
+\l__nicematrix_y_initial_dim=\dimen289
+\l__nicematrix_x_final_dim=\dimen290
+\l__nicematrix_y_final_dim=\dimen291
+\l__nicematrix_tmpc_dim=\dimen292
+\l__nicematrix_tmpd_dim=\dimen293
+\l__nicematrix_tmpe_dim=\dimen294
+\l__nicematrix_tmpf_dim=\dimen295
+\g__nicematrix_dp_row_zero_dim=\dimen296
+\g__nicematrix_ht_row_zero_dim=\dimen297
+\g__nicematrix_ht_row_one_dim=\dimen298
+\g__nicematrix_dp_ante_last_row_dim=\dimen299
+\g__nicematrix_ht_last_row_dim=\dimen300
+\g__nicematrix_dp_last_row_dim=\dimen301
+\g__nicematrix_width_last_col_dim=\dimen302
+\g__nicematrix_width_first_col_dim=\dimen303
+\l__nicematrix_row_min_int=\count360
+\l__nicematrix_row_max_int=\count361
+\l__nicematrix_col_min_int=\count362
+\l__nicematrix_col_max_int=\count363
+\l__nicematrix_start_int=\count364
+\l__nicematrix_end_int=\count365
+\l__nicematrix_local_start_int=\count366
+\l__nicematrix_local_end_int=\count367
+\g__nicematrix_static_num_of_col_int=\count368
+\l__nicematrix_rounded_corners_dim=\dimen304
+\l__nicematrix_tab_rounded_corners_dim=\dimen305
+\l__nicematrix_offset_dim=\dimen306
+\l__nicematrix_line_width_dim=\dimen307
+\g__nicematrix_block_box_int=\count369
+\l__nicematrix_submatrix_extra_height_dim=\dimen308
+\l__nicematrix_submatrix_left_xshift_dim=\dimen309
+\l__nicematrix_submatrix_right_xshift_dim=\dimen310
+\l__nicematrix_first_row_int=\count370
+\l__nicematrix_first_col_int=\count371
+\l__nicematrix_last_row_int=\count372
+\l__nicematrix_last_col_int=\count373
+\c@tabularnote=\count374
+\g__nicematrix_tabularnote_int=\count375
+\c@nicematrix_draft=\count376
+\l__nicematrix_cell_space_top_limit_dim=\dimen311
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen312
+\l__nicematrix_xdots_inter_dim=\dimen313
+\l__nicematrix_xdots_shorten_start_dim=\dimen314
+\l__nicematrix_xdots_shorten_end_dim=\dimen315
+\l__nicematrix_xdots_radius_dim=\dimen316
+\l__nicematrix_notes_above_space_dim=\dimen317
+\l__nicematrix_left_margin_dim=\dimen318
+\l__nicematrix_right_margin_dim=\dimen319
+\l__nicematrix_extra_left_margin_dim=\dimen320
+\l__nicematrix_extra_right_margin_dim=\dimen321
+\c__nicematrix_max_l_dim=\dimen322
+\l__nicematrix_position_int=\count377
+\l__nicematrix_multiplicity_int=\count378
+\l__nicematrix_brace_yshift_dim=\dimen323
+) (/root/.TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+(/root/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+(/root/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/root/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/root/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+(/root/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/root/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count379
+) (/root/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen324
+\Hy@linkcounter=\count380
+\Hy@pagecounter=\count381
+(/root/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+) (/root/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count382
+(/root/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+\pdfmajorversion=\count383
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count384
+(/root/.TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen325
+(/root/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/root/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count385
+\Field@Width=\dimen326
+\Fld@charsize=\dimen327
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+(/root/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count386
+\c@Item=\count387
+\c@Hfootnote=\count388
+)
+Package hyperref Info: Driver (custom): hgeneric-testphase.
+(/root/.TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/hgeneric-testphase.def
+File: hgeneric-testphase.def 2024-12-20 v0.96o generic Hyperref driver for the LaTeX PDF management testphase bundle
+(/root/.TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/hyperref-colorschemes.def)
+LaTeX Info: Redefining \href on input line 275.
+LaTeX Info: Redefining \url on input line 361.
+\l__hyp_tmpa_box=\box81
+\l__hyp_tmpa_int=\count389
+\l__hyp_dest_box=\box82
+\g__hyp_linknestlevel_int=\count390
+\HyAnn@Count=\count391
+\Fld@listcount=\count392
+\Hy@SectionHShift=\skip154
+LaTeX Info: Redefining \Hy__hypSectionAnchor on input line 3559.
+) (/root/.TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count393
+))
+Inserting `markspaces' in `pre_linebreak_filter'.
+Inserting `markspaces' in `hpack_filter'.
+luaotfload | cache : Lookup cache loaded from /root/.TinyTeX/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Arial:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:Arial:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Arial/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Arial/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:Arial/I:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Arial/BI:mode=node;script=latn;language=dflt;+tlig;"
+
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script dflt with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'Arial(1)' created for font 'Arial' with
+(fontspec)             options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Arial:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:Arial:mode=node;script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Arial/B:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Arial/B:mode=node;script=latn;language=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:Arial/I:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Arial/BI:mode=node;script=latn;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Bold/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Bold/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Bold/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'ArialBold(0)' created for font 'Arial
+(fontspec)             Bold' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Arial
+(fontspec)             Bold:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Arial
+(fontspec)             Bold:mode=node;script=latn;language=dflt;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Italic/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Italic/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Italic/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'ArialItalic(0)' created for font 'Arial
+(fontspec)             Italic' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Arial
+(fontspec)             Italic:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Arial
+(fontspec)             Italic:mode=node;script=latn;language=dflt;+smcp;"
+
+) (/root/.TinyTeX/texmf-dist/tex/latex/standalone/standalone.sty
+Package: standalone 2022/10/10 v1.3b Package to include TeX sub-files with preambles
+(/root/.TinyTeX/texmf-dist/tex/latex/currfile/currfile.sty
+Package: currfile 2024/03/14 v1.0 Provides the file path elements of the current input file
+(/root/.TinyTeX/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2022/10/25 v0.8b Hooks for input files
+(/root/.TinyTeX/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
+))
+\c@currfiledepth=\count394
+) (/root/.TinyTeX/texmf-dist/tex/latex/gincltex/gincltex.sty (/root/.TinyTeX/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
+(/root/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+(/root/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/root/.TinyTeX/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+(/root/.TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box83
+)
+\tc@llx=\dimen328
+\tc@lly=\dimen329
+\tc@urx=\dimen330
+\tc@ury=\dimen331
+(/root/.TinyTeX/texmf-dist/tex/latex/adjustbox/tc-pgf.def
+File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+)
+Package trimclip Info: No clipping driver 'tc-luatex.def' available.
+(trimclip)             Using fall-back PGF driver.
+)
+\adjbox@Width=\dimen332
+\adjbox@Height=\dimen333
+\adjbox@Depth=\dimen334
+\adjbox@Totalheight=\dimen335
+\adjbox@pwidth=\dimen336
+\adjbox@pheight=\dimen337
+\adjbox@pdepth=\dimen338
+\adjbox@ptotalheight=\dimen339
+)
+\gincltex@box=\box84
+) (/root/.TinyTeX/texmf-dist/tex/latex/filemod/filemod-expmin.sty
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
+)) (/root/.TinyTeX/texmf-dist/tex/latex/preview/preview.sty
+Package: preview 2024/06/30 14.0.6 (AUCTeX/preview-latex)
+(/root/.TinyTeX/texmf-dist/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen340
+) (/root/.TinyTeX/texmf-dist/tex/latex/preview/prtightpage.def)
+\pr@snippet=\count395
+\pr@box=\box85
+\pr@output=\toks42
+) (/root/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(/root/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count396
+\Gm@cntv=\count397
+\c@Gm@tempcnt=\count398
+\Gm@bindingoffset=\dimen341
+\Gm@wd@mp=\dimen342
+\Gm@odd@mp=\dimen343
+\Gm@even@mp=\dimen344
+\Gm@layoutwidth=\dimen345
+\Gm@layoutheight=\dimen346
+\Gm@layouthoffset=\dimen347
+\Gm@layoutvoffset=\dimen348
+\Gm@dimlist=\toks43
+) (./ind3C_header.aux)
+\openout1 = ind3C_header.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+(/root/.TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+(/root/.TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Inserting `tagpdf' in `pre_shipout_filter'.
+Inserting `tagpdf' in `pre_shipout_filter'.
+\c@mv@tabular=\count399
+\c@mv@boldtabular=\count400
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 28.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 28.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 28.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 28.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 28.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 28.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 28.
+LaTeX Font Info:    Redeclaring math accent \check on input line 28.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 28.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 28.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 28.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 28.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `tabular' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `tabular'
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 28.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `boldtabular' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldtabular'
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/OpenSans(0)/m/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/b/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/OpenSans(0)/b/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 28.
+\c__nicematrix_shift_Ldots_last_row_dim=\dimen349
+\c__nicematrix_shift_exterior_Vdots_dim=\dimen350
+\c__nicematrix_innersep_middle_dim=\dimen351
+\c@tabularnotesi=\count401
+\enitdp@tabularnotes=\count402
+\c@tabularnotes*i=\count403
+\enitdp@tabularnotes*=\count404
+Package hyperref Info: Link coloring OFF on input line 28.
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 538.02267pt, 73.97733pt)
+* v-part:(T,H,B)=(0.0pt, 792.0pt, 0.0pt)
+* \paperwidth=612.0pt
+* \paperheight=792.0pt
+* \textwidth=538.02267pt
+* \textheight=792.0pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-72.26999pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=0.0pt
+* \footskip=0.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=-72.27pt
+* \voffset=-72.27pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package nicematrix Warning: Key deprecated.
+(nicematrix)                The key 'color-inside' (and its alias
+(nicematrix)                'colortbl-like') is now point-less and have been
+(nicematrix)                deprecated.
+(nicematrix)                You won't have similar message till the end of the
+(nicematrix)                document.
+
+\g__nicematrix_max_cell_width_dim=\dimen352
+\c@iRow=\count405
+\c@jCol=\count406
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+(/root/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+(/root/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\l__nicematrix_cell_box=\box86
+\l__nicematrix_the_array_box=\box87
+\l__nicematrix_left_delim_dim=\dimen353
+\l__nicematrix_right_delim_dim=\dimen354
+
+Package tagpdf Warning: Parent-Child 'Table/' --> 'MC (realcontent)'.
+(tagpdf)                Relation is not allowed (struct 3, /Table) on line 32
+
+\g__nicematrix_block_box_1_box=\box88
+\g__nicematrix_block_box_2_box=\box89
+\g__nicematrix_ddots_int=\count407
+\g__nicematrix_iddots_int=\count408
+\g__nicematrix_delta_x_one_dim=\dimen355
+\g__nicematrix_delta_y_one_dim=\dimen356
+\g__nicematrix_delta_x_two_dim=\dimen357
+\g__nicematrix_delta_y_two_dim=\dimen358
+\l__nicematrix_initial_i_int=\count409
+\l__nicematrix_initial_j_int=\count410
+\l__nicematrix_final_i_int=\count411
+\l__nicematrix_final_j_int=\count412
+Preview: Tightpage -32891 -32891 32891 32891
+[1{/root/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+
+
+(./ind3C_header.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-09>
+ ***********
+
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~11 structure objects
+(tagpdf)             with ~10 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root
+)
+
+Here is how much of LuaTeX's memory you used:
+ 33714 strings out of 475554
+ 125308,1648299 words of node,token memory allocated
+ 1229 words of node memory still in use:
+   19 hlist, 2 vlist, 2 rule, 19 glue, 4 kern, 2 glyph, 42 attribute, 109 glue_spec, 42 attribute_list, 2 write, 1 save_pos, 17 pdf_literal, 4 pdf_colorstack nodes
+   avail lists: 1:3,2:1456,3:1284,4:101,5:44,6:7,7:1534,8:3,9:831,10:1,11:54
+ 55808 multiletter control sequences out of 65536+600000
+ 80 fonts using 17110751 bytes
+ 95i,21n,123p,1503b,1394s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/fonts/truetype/ttf_files/arial/arialbd.ttf></usr/share/fonts/truetype/ttf_files/arial/arial.ttf>
+Output written on ind3C_header.pdf (1 page, 107924 bytes).
+
+PDF statistics: 49 PDF objects out of 1000 (max. 8388607)
+ 1 named destinations out of 1000 (max. 131072)
+ 111 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -1,0 +1,74 @@
+{
+  "1A": {
+    "Standard": "Leadership and Vision",
+    "Name": "Focused, Shared Vision and Goals"
+  },
+  "1B": {
+    "Standard": "Leadership and Vision",
+    "Name": "Distributed Leadership and Sustainability"
+  },
+  "1C": {
+    "Standard": "Leadership and Vision",
+    "Name": "Culture of Continuous Improvement"
+  },
+  "1D": {
+    "Standard": "Leadership and Vision",
+    "Name": "Aligned, Consistent Professional Development"
+  },
+  "2A": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Name": "High-Quality, Defined Curriculum"
+  },
+  "2B": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Name": "Collaborative Planning"
+  },
+  "2C": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Name": "High Expectations, Rigorous Instruction"
+  },
+  "2D": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Name": "Teacher Observation and Feedback"
+  },
+  "2E": {
+    "Standard": "Curriculum, Instruction and Assessment",
+    "Name": "Data Collection and Collaborative Data Use"
+  },
+  "3A": {
+    "Standard": "Culture and Climate",
+    "Name": "Positive Interpersonal Relationships"
+  },
+  "3B": {
+    "Standard": "Culture and Climate",
+    "Name": "Warm and Responsive Environment"
+  },
+  "3C": {
+    "Standard": "Culture and Climate",
+    "Name": "Student Voice and Feedback"
+  },
+  "3D": {
+    "Standard": "Culture and Climate",
+    "Name": "Family Collaboration"
+  },
+  "3E": {
+    "Standard": "Culture and Climate",
+    "Name": "Community Resources and Engagement"
+  },
+  "4A": {
+    "Standard": "Targeted Instruction and Support",
+    "Name": "Multitiered System of Supports"
+  },
+  "4B": {
+    "Standard": "Targeted Instruction and Support",
+    "Name": "Inclusive and Differentiated Instruction"
+  },
+  "4C": {
+    "Standard": "Targeted Instruction and Support",
+    "Name": "Enrichment"
+  },
+  "4D": {
+    "Standard": "Targeted Instruction and Support",
+    "Name": "College and Career Readiness Opportunities"
+  }
+}
