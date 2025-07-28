@@ -40,25 +40,39 @@ Due to the large number of cloud services leveraged to make this a fully automat
     * Sharepoint Automation (send files to and from sharepoint automatically)
 
 # Project Structure
+## Input Folders
+audio_files/ – Original input audio files
 
-aiPipeline-sdss2025/
-├── ai_findings/ # Output: AI-generated findings from OpenAI API
-├── audio_files/ # Input: Original audio files
-├── audio_files_not_processed/ # Output: Files that failed processing, flagged for review
-├── audio_files_processed/ # Output: Successfully processed audio files
-├── daily_logs/ # Output: Logs generated for each pipeline run
-├── meta_data/ # Input: Prompt templates and indicator definitions
-├── resources/ # Optional: Cloud config (.ini) for AWS/Azure credentials
-├── sample_output_files/ # Mock data outputs for example/test use
-├── scripts/ # All Python scripts used by the pipeline
-├── tagged_transcripts/ # Output: Transcripts tagged with qualitative codes
-├── tagged_transcripts_crosswalks/ # Input: Maps interviewer questions to codes
-├── word_diarized_transcripts/ # Output: Word docs with diarized speaker turns
-├── word_transcripts/ # Output: Word docs from transcription step
-├── app_sample.py # Sample script for local pipeline run using mock data
-└── requirements.txt # Python dependencies for the pipeline
+meta_data/ – Prompt templates and indicator definitions
 
-The folders ai_findings, audio_files, audio_files_not_processed, audio_files_processed, tagged_transcripts, word_diarized_transcripts, and word_transcripts are all output folders that are used to track and contain the output for each of the steps of the pipeline. Further description of each folder and how they correspond to the different sections is provided in the next section
+tagged_transcripts_crosswalks/ – Maps interviewer questions to specific codes
+
+## Output Folders
+ai_findings/ – AI-generated findings from OpenAI API
+
+audio_files_processed/ – Successfully processed audio files
+
+audio_files_not_processed/ – Files that failed processing, flagged for review
+
+tagged_transcripts/ – Transcripts tagged with qualitative codes
+
+word_diarized_transcripts/ – Word documents with diarized speaker turns
+
+word_transcripts/ – Word documents generated from audio transcription
+
+daily_logs/ – Logs generated during each pipeline run
+
+## Configuration & Resources
+resources/ – Optional cloud .ini config file for AWS/Azure credentials
+
+sample_output_files/ – Sample mock data outputs for testing and replication
+
+requirements.txt – Python dependencies required for the pipeline
+
+## Scripts
+scripts/ – All Python scripts required to run the pipeline
+
+app_sample.py – Sample script to run the pipeline locally using mock data
 
 # Output folders
 
